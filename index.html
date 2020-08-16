@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #F59173;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #DE9781;
+}
+</style>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <title>Apricot</title>
+  </head>
+  <body>
+ <a href="./APRI.html"> <img class= "logo" href="logo2.png">
+    <img class= "logo" src="logo2.png" alt="Apricot Logo"></a>
+
+<div class="paragraph">
+  <p class="intro">Welcome to the main page of Apricot, we welcome you to your trusty sex encyclopedia. </p>
+  <p class="intro">Just click on our search bar to find any information regarding sex ed that you might need!</p>
+  <p class="intro">Click on our logo for a bit more information about Apricot!</p>
+</div>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Ask Away!">
+
+<ul id="myUL">
+
+  <li><a href="./Condoms.html">Condoms</a></li>
+  <li><a href="./Anatomy.html">Anatomy</a></li>
+  <li><a href="./HowTo.html">Sexual Orientation and Identity</a></li>
+  <li><a href="./STD.html">STDs</a></li>
+  <li><a href="./UTI.html">Masturbation and Sexual Pleasure</a></li>
+  <li><a href="./WomenSexHealth.html">Women's Sexual Health</a></li>
+  <li><a href="help.html">Help</a></li>
+</ul>
+<p></p>
+<div class="yessir">
+  <a href="./aboutus.html">
+   <input class= "aboutme" type="button"  value="About Us!">
+ </a>
+</div>
+<p>  </p>
+
+<div class="nextbutton">
+  <a href="./resources.html">
+  <input class="resources" type="button" value="Resources">
+  </a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+  <script src="./index.js">
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,199 @@
+body {
+  background-color: #FFFAE5;
+}
+
+.logo {
+  flex-wrap: wrap;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.intro {
+font-family: 'Alata', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #FEBD5A;
+  padding-bottom: 2px;
+
+}
+.condoms{
+  font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FEBD5A;
+    padding-bottom: 2px;
+}
+
+.anatomy{
+  font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FEBD5A;
+    padding-bottom: 2px;
+}
+
+.help{
+  font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FEBD5A;
+    padding-bottom: 2px;
+}
+
+.howto{
+  font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FEBD5A;
+    padding-bottom: 2px;
+}
+
+.UTI{
+    font-family: 'Alata', sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: #FEBD5A;
+      padding-bottom: 2px;
+}
+
+.STD{
+  font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FEBD5A;
+    padding-bottom: 2px;
+}
+
+.womens{
+  font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FEBD5A;
+    padding-bottom: 2px;
+}
+
+.aboutme{
+   background-color: #F59173;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   padding: 15px ;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   font-family: 'Alata', sans-serif;
+
+}
+
+.ApricotPage{
+  text-align: center;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.ApriInfo{
+  font-family: 'Alata', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.teamintro{
+  font-family: 'Alata', sans-serif;
+  color: #F59173;
+  text-align: center;
+
+}
+.team{
+  font-family: 'Alata', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.retrato{
+  width: 350px;
+  height: 240px;
+  float: right;
+  margin: 10px;
+  
+
+}
+
+.yessir {
+  width: 120px;
+  height: 60px;
+  background:#F59173 ;
+  transition: width 2s;
+  text-align: center;
+}
+
+.yessir:hover {
+  width: 170px;
+}
+
+.nextbutton {
+  width: 120px;
+  height: 60px;
+  background:#F59173 ;
+  transition: width 2s;
+  text-align: center;
+}
+
+.nextbutton:hover {
+  width: 170px;
+}
+
+.resources{
+  background-color: #F59173;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Alata', sans-serif;
+
+}
+
+.introresources{
+  font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FEBD5A;
+    padding-bottom: 10px;
+}
+
+.textresources{
+  font-family: 'Alata', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 5px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
